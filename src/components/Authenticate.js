@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useStateContext from '../hooks/useStateContext'
-import { Navigate, Outlet, useNavigate } from 'react-router-dom';
-import { Alert } from '@mui/material';
+import { Navigate, Outlet} from 'react-router-dom';
 
 export default function Authenticate() {
 
