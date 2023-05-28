@@ -9,7 +9,7 @@ import Authenticate from './components/Authenticate';
 function App() {
   return (
     <BrowserRouter>
-    <Routes>0
+    <Routes>
       <Route path='/' element={<Login/>}/>
       <Route element = {<Authenticate/>}>
         <Route path='/' element={<Layout/>}>
